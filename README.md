@@ -46,7 +46,7 @@
 ![image](https://user-images.githubusercontent.com/30429632/88448442-14969900-ce79-11ea-9aa9-262fc66786c6.png) <br>
 그림4. 결과 수치 <br><br>
 \*\*계산식.\*\* <br>
-accuracy = 100 - np.mean(np.abs(d_transposed - d_last_orig_mod_transposed)) / 255 * 100
+accuracy = 100 - mean(abs(label - predict)) / 255 * 100
 
 
 #### 프로토타입 모델의 확장
