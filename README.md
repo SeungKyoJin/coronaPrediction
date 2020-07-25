@@ -1,1 +1,1 @@
-# coronaNewsletter
+# RNN기반 지역별 코로나바이러스 예측
