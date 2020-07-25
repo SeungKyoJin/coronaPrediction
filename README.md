@@ -32,6 +32,7 @@
 4. 모델 학습: 공간적 특성을 반영하고 있으므로 인공지능으로 학습시켜 예측
 
 #### 예측 결과
+
 ![image](https://user-images.githubusercontent.com/30429632/88448515-c1711600-ce79-11ea-90f1-0d386160c15a.png)<br>
 그림2. 예측 이미지 <br>
 
@@ -39,7 +40,9 @@
 그림3. 정답 이미지 <br>
 
 ![image](https://user-images.githubusercontent.com/30429632/88448442-14969900-ce79-11ea-9aa9-262fc66786c6.png) <br>
-그림4. 결과 수치 <br>
+그림4. 결과 수치 <br><br>
+\*\*계산식.\*\* <br>
+accuracy = 100 - np.mean(np.abs(d_transposed - d_last_orig_mod_transposed)) / 255 * 100
 
 #### 프로토타입 모델의 확장
 광역자치단체보다 세분화된 지자체나 전 세계를 대상으로하는 데이터를 수집해 예측의 범위를 넓히고 정확도 향상 
