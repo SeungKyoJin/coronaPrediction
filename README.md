@@ -31,12 +31,15 @@
 3. 데이터 변환: 데이터를 대한민국의 지도에 플로팅을 하여 이미지화하였다. 
 4. 모델 학습: 공간적 특성을 반영하고 있으므로 인공지능으로 학습시켜 예측
 
-#### 결과
+#### 예측 결과
 ![pred0](https://user-images.githubusercontent.com/30429632/88448392-815d6380-ce78-11ea-8b38-28216d7faf5e.png) <br>
 그림2. 예측 이미지 <br>
 
-![real0](https://user-images.githubusercontent.com/30429632/88448414-d13c2a80-ce78-11ea-807e-800ffc46155e.png)
+![real0](https://user-images.githubusercontent.com/30429632/88448414-d13c2a80-ce78-11ea-807e-800ffc46155e.png) <br>
 그림3. 결과 이미지 <br>
+
+![image](https://user-images.githubusercontent.com/30429632/88448442-14969900-ce79-11ea-9aa9-262fc66786c6.png) <br>
+그림4. 결과 지표 <br>
 
 #### 프로토타입 모델의 확장
 광역자치단체보다 세분화된 지자체나 전 세계를 대상으로하는 데이터를 수집해 예측의 범위를 넓히고 정확도 향상 
