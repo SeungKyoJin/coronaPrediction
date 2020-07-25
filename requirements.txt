@@ -4,3 +4,4 @@ numpy
 imageio
 pillow
 mxnet
+geopandas
